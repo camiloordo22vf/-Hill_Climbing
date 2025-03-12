@@ -6,7 +6,8 @@ import random
 def funcion_objetivo(x):
     return -(x - 3) ** 2 + 9  # Función cuadrática con máximo en x=3
 
-# Algoritmo Hill Climbing con impresión de pasos
+# Algoritmo Hill Climbing con impresión de pasoss
+
 def hill_climbing(paso=0.1, iteraciones=50):
     x_actual = random.uniform(-10, 10)  # Selección de un punto aleatorio
     mejor_valor = funcion_objetivo(x_actual)
